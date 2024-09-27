@@ -1,0 +1,51 @@
+body{
+    margin: 0px;
+    padding: 0px
+}
+nav{
+    background: teal;
+    height: 70px;
+    text-align: center;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 20px 20px 5px 5px;
+    text-transform: capitalize;
+}
+nav a:hover{
+    color: brown;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.banner{
+    background: url(../images/image1.jpeg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner h3{
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-size: 100px;
+}
+.banner a{
+    text-align: center;
+    color: white;
+    background:teal;
+    border-radius: 10px 30px;
+    padding: 20px;
+    margin-left: 500px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.banner a:hover{
+    color: red;
+    background: white;
+    border: teal;
+    transition: 0.5s;
+
+}
